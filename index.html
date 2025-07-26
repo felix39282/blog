@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog Vallenato</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fdfcf8;
+      color: #222;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav {
+      background-color: #e3b505;
+      padding: 10px 0;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      padding: 0;
+      margin: 0;
+    }
+
+    nav a {
+      color: #000;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    header {
+      background-color: #131963;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+      font-family: 'Georgia', serif;
+    }
+
+    header p {
+      font-style: italic;
+    }
+
+    main {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    h2,
+    h3 {
+      color: #131963;
+      font-family: 'Georgia', serif;
+      border-left: 5px solid #ffd93b;
+      padding-left: 10px;
+    }
+
+    ul li {
+      margin-bottom: 10px;
+    }
+
+    img {
+      max-width: 100%;
+      border-radius: 10px;
+      margin-top: 10px;
+    }
+
+    input[type="text"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    button {
+      padding: 10px 15px;
+      background-color: #ffd93b;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    footer {
+      background-color: #131963;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li><a href="#intro">¿Qué es el Vallenato?</a></li>
+      <li><a href="#historia">Historia</a></li>
+      <li><a href="#artistas">Artistas</a></li>
+      <li><a href="#compositores">Compositores</a></li>
+      <li><a href="#acordeoneros">Acordeoneros</a></li>
+      <li><a href="#blog-posts">Entradas</a></li>
+      <li><a href="#new-post">Nueva Entrada</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <h1><i class="fas fa-music"></i> Blog de Música Vallenata</h1>
+    <p>Un recorrido por la historia, los artistas y el alma del vallenato colombiano</p>
+  </header>
+
+  <main>
+    <section id="intro">
+      <h2>¿Qué es el Vallenato?</h2>
+      <p>El vallenato es un género musical tradicional de la región Caribe de Colombia, caracterizado por su lírica
+        poética y sus instrumentos: el acordeón, la caja y la guacharaca.</p>
+      <img src="imagenes/istrumentos musical.jpg" alt="Instrumentos Vallenatos" width="20%">
+      <img src="imagenes/instumento.jpg" alt="Instrumento" width="50%">
+    </section>
+
+    <section id="historia">
+      <h2>Historia y Trascendencia</h2>
+      <p>Este género ha sido un medio de expresión del pueblo colombiano por décadas. Fue declarado Patrimonio Cultural
+        Inmaterial de la Humanidad por la UNESCO en 2015. Sus letras son relatos de vida, amor, protesta y costumbres
+        del Caribe.</p>
+      <img src="imagenes/leyenda vallenato.jpg" alt="Leyenda Vallenata">
+      <img src="imagenes/leyenda 2.jpg" alt="Leyenda Vallenata 2">
+    </section>
+
+    <section id="artistas">
+      <h2>Artistas y Compositores Legendarios</h2>
+      <ul>
+        <li><strong>Diomedes Díaz</strong></li>
+        <div class="img-overlay-wrapper">
+          <img src="imagenes/diomedes diaz.jpg" alt="">
+          <div class="img-overlay-text"><h3>Diomedes Díaz – El ícono máximo del vallenato</h3>.</div>
+          <p> por su talento único, letras sentidas y enorme conexión con el pueblo. Su voz, carisma y legado lo
+            convirtieron en ícono inmortal de la música colombiana
+          <ul>
+            <li>No puedo vivir sin ti </li>
+            <li>Amarte más no pude</li>
+            <li>Brindo con el alma</li>
+          </ul>
+          </p>
+
+        </div>
+
+        <li><strong>Jorge Oñate</strong></li>
+        <div class="img-overlay-wrapper">
+          <img src="imagenes/jorge_oñate_resized.jpg" alt="">
+          <div class="img-overlay-text"><h3>Jorge Oñate – Voz única que renovó el género.</h3></div>
+          <p>Jorge Oñate fue una voz única que modernizó el vallenato con elegancia y fuerza vocal. Revolucionó el
+            género al hacerlo más estilizado y popular sin perder su raíz tradicional.
+          <ul>
+            <li>No comprendí tu amor</li>
+            <li>Paisaje de sol</li>
+            <li>Ruiseñor de mi valle</li>
+          </ul>
+          </p>
+        </div>
+
+        <li><strong>Rafael Escalona</strong></li>
+        <div class="img-overlay-wrapper">
+          <img src="imagenes/rafael_escalona_resized.jpg" alt="">
+          <div class="img-overlay-text"><h3>Rafael Escalona – El gran poeta de Valledupar.</h3></div>
+          <p>fue el gran poeta de Valledupar, creador de canciones que narraban la vida con humor y sentimiento. Su
+            pluma convirtió el vallenato en crónica del alma costeña.
+          <ul>
+            <li>La casa en el aire</li>
+            <li>El testamento</li>
+            <li>Honda herida</li>
+          </ul>
+          </p>
+        </div>
+
+        <li><strong>Leandro Díaz</strong></li>
+        <div class="img-overlay-wrapper">
+          <img src="imagenes/leandro diaz.jpg" alt="">
+          <div class="img-overlay-text"><h3>>Leandro Díaz – Sensibilidad pura en cada letra.</h3></div>
+          <p>Leandro Díaz, a pesar de su ceguera, describió con el alma los paisajes y sentimientos del Caribe. Sus
+            letras profundas y poéticas hicieron del vallenato una expresión de belleza y emoción
+          <ul>
+            <li>Matilde Lina</li>
+            <li>La despedida</li>
+            <li>La diosa coronada</li>
+          </ul>
+          </p>
+        </div>
+
+        <li><strong>Carlos Vives</strong></li>
+        <div class="img-overlay-wrapper">
+          <img src="imagenes/carlos vives.jpg" alt="">
+          <div class="img-overlay-text"><h3>Carlos Vives – Modernizó el vallenato para el mundo</h3>.</div>
+          <p> fusionó vallenato con pop y rock, llevando el folclor colombiano a escenarios internacionales. Su estilo
+            renovado hizo que nuevas generaciones redescubrieran el alma del Caribe.
+            <li>La gota fría </li>
+            <li>Fruta fresca</li>
+            <li>Quiero verte sonreí</li>
+          </p>
+        </div>
+
+        <li><strong>Kaleth Morales</strong></li>
+        <div class="img-overlay-wrapper">
+          <img src="imagenes/kaleth morales.jpg" alt="">
+          <div class="img-overlay-text"><h3>Kaleth Morales – Rey de la Nueva Ola del Vallenato.</h3></div>
+          <p> revolucionó el vallenato con frescura, romanticismo y letras juveniles. Su estilo moderno marcó una nueva
+            generación antes de partir trágicamente siendo una promesa imparable.
+          <ul>
+            <li>Vivo en el limbo</li>
+            <li>Siete palabras</li>
+            <li>La hora de la verdad </li>
+          </ul>
+          </p>
+        </div>
+      </ul>
+    </section>
+    <section id="compositores">
+      <h2><i class="fas fa-pen-nib"></i> Compositores Vallenatos Relevantes</h2>
+      <ul>
+        <li><strong>Aurelio "Yeyo" Núñez</strong></li>
+        <div class="img-overlay-wrapper">
+          <img src="imagenes/aurelio nuñes.jpg" alt="">
+          <div class="img-overlay-text"><h3>Aurelio "Yeyo" Núñez – Inspirador de historias profundas</h3>.</div>
+          <p> un compositor sensible y narrativo, cuyas letras reflejan el alma del pueblo y las emociones más humanas.
+            Su obra alimentó la grandeza del vallenato tradicional.
+          <ol>
+            <li>Mi Propia Historia</li>
+            <li>El Original</li>
+            <li>Te Dedico Mis Triunfos</li>
+          </ol>
+          </p>
+        </div>
+
+        <li><strong>Marciano Martínez</strong></li>
+        <div class="img-overlay-wrapper">
+          <img src="imagenes/marciano_martinez.jpg" alt="">
+          <div class="img-overlay-text"><h3>Marciano Martínez – Autor del clásico "Amarte más no pude"</h3>.</div>
+          <p> es un compositor vallenato reconocido por su profundidad lírica y emotividad. Su obra más famosa, “Amarte
+            más no pude”, inmortalizada por Diomedes Díaz, es un himno al amor imposible.
+          <ol>
+            <li>La juntera</li>
+            <li>Usted</li>
+            <li>la vida</li>
+          </ol>
+          </p>
+        </div>
+
+        <li><strong>Gustavo Gutiérrez</strong></li>
+        <div class="img-overlay-wrapper">
+          <img src="imagenes/gustavo gutieres .jpg" alt="">
+          <div class="img-overlay-text"><h3>Gustavo Gutiérrez – Letrista del sentimiento romántico.</h3></div>
+          <p> es un maestro del vallenato lírico y sentimental, cuyas letras profundas exaltan el amor, la nostalgia y
+            la belleza. Su poesía musical ha marcado generaciones con elegancia y emoción.
+          <ol>
+            <li>Sin medir distancias </li>
+            <li>El Original</li>
+            <li>Recuerdos</li>
+          </ol>
+          </p>
+        </div>
+
+        <li><strong>Fernando Meneses</strong></li>
+        <div class="img-overlay-wrapper">
+          <img src="imagenes/fernando menese.jpg" alt="">
+          <div class="img-overlay-text"><h3>Fernando Meneses – Llenó de sensibilidad el vallenato</h3>.</div>
+          <p> es un compositor profundo y sentimental, cuyas letras reflejan amor, nostalgia y la esencia del ser
+            humano. Su estilo íntimo ha enriquecido el vallenato con poesía y autenticidad.
+          <ol>
+            <li>Mi mejor canción</li>
+            <li>Después del amor </li>
+            <li>Un viejo amor</li>
+          </ol>
+          </p>
+        </div>
+      </ul>
+      <h3><i class="fas fa-star"></i> Mi Aporte Personal</h3>
+      <img src="imagenes/felix_225x225.jpg" alt="">
+      <p><strong>Felix Silva</strong> – Nacido el 22 de mayo de 1986 en la Sierra Nevada de Santa Marta, en la vereda La
+        Reserva. Hijo de padres campesinos santandereanos que emigraron en busca de mejores oportunidades. Influenciado
+        por la cultura vallenata que escuchaba de sus primos y en la radio. Es el quinto hijo de la unión de Néstor
+        Silva y Carmen León.</p>
+      <p>Cantante y compositor aficionado. Mis composiciones incluyen:</p>
+      <ul>
+        <li>Mil Canciones de Olvido</li>
+        <li>Tus Besos Solo para Mí</li>
+        <li>La Propuesta</li>
+        <li>Entre muchas otras...</li>
+      </ul>
+      <p>🎥 Visita mi canal de YouTube: <a href="https://www.youtube.com/@felixramonsilvaleon4233" target="_blank">Felix
+          Silva</a></p>
+    </section>
+
+    <section id="acordeoneros">
+      <h2><i class="fas fa-accordion"></i> Acordeoneros Influyentes del Vallenato</h2>
+      <ul>
+        <li><strong>Emiliano Zuleta</strong></li>
+        <div class="img-overlay-wrapper">
+          <img src="imagenes/emiliano zuleta.jpg" alt="">
+          <div class="img-overlay-text">Emiliano Zuleta – Creador de la cancin "mi hermano y yo".</div>
+     <p>Emiliano Zuleta Díaz (nacido el 28 de diciembre de 1944) fue el acordeonero principal y compositor dentro
+      del dúo. Grabó cerca de 60 canciones, incluyendo éxitos como Mi Hermano y Yo, La Sangre Llama y Mañanitas de
+       Invierno
+      <p>
+      <h3>🎶 Canciones destacadas con Emiliano Zuleta Díaz en el acordeón</h3>
+            </p>
+            <ol>
+              <li>Mi hermano y yo</li>
+              <li>La sangre llama</li>
+              <li>Soy como soy </li>
+            </ol>
+          </p>
+        </div>
+
+        <li><strong>Juancho Rois</strong></li>
+        <div class="img-overlay-wrapper">
+          <img src="imagenes/juncho rois.jpg" alt="">
+          <div class="img-overlay-text">Juancho Rois – Acompañante de Diomedes Díaz.</div>
+      <p>
+      Juancho Rois fue un virtuoso del acordeón y uno de los más fieles compañeros musicales de Diomedes Díaz. Su
+       estilo alegre, ágil y creativo marcó una época dorada del vallenato moderno, y exelente compositor
+      <p>
+      <h3>🎶 Canciones destacadas con Juancho Rois (acordeón)</h3>
+      </p>
+            <ol>
+              <li>Mensaje de Navidad</li>
+              <li>Bonita</li>
+              <li>Todo es para ti</li>
+            </ol></p>
+        </div>
+
+        <li><strong>Colacho Mendoza</strong></li>
+        <div class="img-overlay-wrapper">
+          <img src="imagenes/colacho mendoza.jpg" alt="">
+          <div class="img-overlay-text">Colacho Mendoza – Campeón de múltiples festivales.</div>
+          <p>Nicolás "Colacho" Mendoza fue uno de los más grandes acordeoneros del vallenato, ganador de múltiples
+            ediciones del Festival de la Leyenda Vallenata, incluyendo el título de Rey de Reyes. Su estilo virtuoso y
+            tradicional lo convirtió en leyenda viva del folclor. 
+            <p>
+              <h3>🎶 Canciones destacadas con el acordeón de Colacho Mendoza</h3>
+            </p>
+            <ol>
+              <li>La gordita</li>
+              <li>Cantando</li>
+              <li>Reina de mi alma</li>
+            </ol>
+          </p>
+        </div>
+
+        <li><strong>Álvaro López</strong></li>
+        <div class="img-overlay-wrapper">
+          <img src="imagenes/alvaro lopez.jpg" alt="">
+          <div class="img-overlay-text">Álvaro López – Virtuoso con muchos reconocimientos.</div>
+          <p>
+            Álvaro López es un maestro del acordeón, reconocido por su técnica impecable y múltiples títulos, incluido
+            el de Rey Vallenato. Ha sido acompañante de grandes voces como Jorge Oñate, dejando huella en la historia
+            del folclor.
+            <p>
+        <h3>🎶 Canciones destacadas con Álvaro López al acordeón</h3>
+            </p>
+             <ol>
+              <li>Amor sensible</li>
+              <li>Amor sensible</li>
+              <li>La otra mitad de mi vida</li>
+            </ol>
+          </p>
+        </div>
+
+        <li><strong>Israel Romero</strong></li>
+        <div class="img-overlay-wrapper">
+          <img src="imagenes/israel romero.jpg" alt="">
+          <div class="img-overlay-text">Israel Romero – Co-fundador de Binomio de Oro.</div>
+          <p>
+            Israel "El Pollo Irra" Romero es un legendario acordeonero y cofundador del Binomio de Oro junto a Rafael
+          Orozco. Su estilo alegre y elegante marcó una nueva era en el vallenato romántico y comercial.
+          <p>
+            <h3>🎶 Canciones destacadas con Israel Romero en el acordeón</h3>
+          </p>
+           <ol>
+              <li>Solo para ti </li>
+              <li>Olvidala</li>
+              <li>No te vayas</li>
+            </ol>
+          </p>
+        </div>
+      </ul>
+    </section>
+
+    <section id="blog-posts">
+      <h2>📬 Entradas del Blog</h2>
+    </section>
+
+    <section id="new-post">
+      <h2>📝 Crear Nueva Entrada</h2>
+      <input type="text" id="title" placeholder="Título de la entrada" />
+      <textarea id="content" placeholder="Escribe aquí tu publicación..."></textarea>
+      <input type="file" id="file-upload" accept="image/*,.pdf,.doc,.docx,.ppt,.pptx" multiple />
+      <button onclick="addPost()">
+        <i class="fas fa-upload"></i> Publicar Entrada
+      </button>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Blog Vallenato | Hecho con 🎵 y ❤️ desde Colombia</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
